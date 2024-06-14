@@ -19,8 +19,6 @@ void vinayak()
         int val;
         cin >> val;
         int lo = 0;
-        // whenever range is given 1e18 keep it INT_64MAX
-        // but make sure to keep value such that it doesn't overflow anywhere.. 
         int hi = INT_FAST64_MAX;
         int ans = 0;
         while (lo <= hi)
